@@ -38,15 +38,7 @@ Before running the project, you need to install the necessary dependencies. Use 
 dotnet restore
 ```
 
-## Step 3: Update Database
-
-Before running the project, you need to update the necessary dependencies for database. Use the following command to install them:
-
-```sh
-dotnet ef database update
-```
-
-## Step 4: Run the Project
+## Step 3: Run the Project
 
 Once the dependencies are installed, you can start the project by executing the main script:
 
