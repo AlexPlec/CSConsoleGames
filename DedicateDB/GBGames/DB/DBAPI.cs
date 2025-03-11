@@ -33,7 +33,7 @@ namespace Demo.DB
         {
             using (HttpClient client = CreateHttpClient())
             {
-                string url = $"http://localhost:7129/api/Tasks/{endPoint}";
+                string url = $"http://localhost:5074/api/Tasks/{endPoint}";
                 string data = await SendGetRequest(client, url);
 
                 List<T> dataList = JsonSerializer.Deserialize<List<T>>(data);
@@ -60,7 +60,7 @@ namespace Demo.DB
         {
             using (HttpClient client = CreateHttpClient())
             {
-                string url = $"http://localhost:7129/api/Tasks/{endPoint}";
+                string url = $"http://localhost:5074/api/Tasks/{endPoint}";
 
                 T data = (T)Activator.CreateInstance(typeof(T), parameters);
 
