@@ -16,16 +16,10 @@ Clone the project repository using Git:
 git clone https://github.com/AlexPlec/CSConsoleGames.git
 ```
 
-Then, navigate into the project directory:
-
-```sh
-cd CSConsoleGames
-```
-
 ## Step 1: Navigate to the GBGamesServer Directory
 
 ```sh
-cd DedicateDB/GBGamesServer
+cd CSConsoleGames/DedicateDB/GBGamesServer
 ```
 
 ## Step 2: Install Dependencies
@@ -54,14 +48,8 @@ dotnet run
 
 ## Step 5: Navigate to the GBGames Directory
 
-navigate into the project directory:
-
 ```sh
-cd CSConsoleGames
-```
-
-```sh
-cd DedicateDB/GBGames
+cd CSConsoleGames/DedicateDB/GBGames
 ```
 
 ## Step 6: Install Dependencies
