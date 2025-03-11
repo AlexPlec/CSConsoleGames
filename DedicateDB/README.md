@@ -54,6 +54,12 @@ dotnet run
 
 ## Step 5: Navigate to the GBGames Directory
 
+navigate into the project directory:
+
+```sh
+cd CSConsoleGames
+```
+
 ```sh
 cd DedicateDB/GBGames
 ```
@@ -66,15 +72,7 @@ Before running the project, you need to install the necessary dependencies. Use 
 dotnet restore
 ```
 
-## Step 7: Update Database
-
-Before running the project, you need to update the necessary dependencies for database. Use the following command to install them:
-
-```sh
-dotnet ef database update
-```
-
-## Step 8: Run the Server
+## Step 7: Run the Server
 
 Once the dependencies are installed, you can start the project by executing the main script:
 
